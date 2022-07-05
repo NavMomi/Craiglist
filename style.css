@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(230, 230, 230);
+    width: 85%;
+    margin: 0 auto;
+}
+.block-item{
+    display: block;
+
+}
+.sale a{
+    display: block;
+}
+
+.btn{
+    padding: 1px 5px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-around;
+}
+.main-header h1{
+    background-color: rgb(200, 200, 200);
+    margin-top: 0;
+    padding: 0 4rem 1rem;
+    margin-right: 250px;
+}
+.main-header h2{
+    font-size: 2.5rem;
+    margin-left: 0x;
+    color: blue;
+}
+h2 a{
+    color: blue;
+}
+.header-form{
+    margin-top: 0.8rem;
+}
+
+.header-form{
+    min-height: 1.7rem;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+
+main{
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+.side-bar{
+    flex-wrap: 1;
+   
+    background-color:rgb(215, 215, 215);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.common-links{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.common-links a{
+    display: inline-block;
+    background-color: lightgrey;
+    margin: 0.8rem 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.1rem 0.3rem;
+    color: blue;
+}
+.side-form{
+    background-color: #c1bcbc;;
+    margin: 0.8rem;
+    padding: 0.8rem;
+   
+}
+.side-form h2{
+    font-size: 1.8rem;
+    background-color:lightgray;
+    margin-bottom: 0.4rem;
+}
+.side-form>select{
+    margin: 0.3rem 0;
+    width: 85%;
+}
+
+.s-link{
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+    color: blue;
+}
+.mail{
+    background-color:light-gray;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.8rem 0;
+    max-width: fit-content;
+    margin: 1.3rem auto;
+}
+
+.side-bar>p{
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    max-width: fit-content;
+}
+
+
+.container{
+    flex-grow: 3;
+    
+    margin-left: 1.5rem;
+    display: flex;
+}
+.main-col{
+    flex-grow: 1;
+    text-align: left;
+}
+.col2{
+    margin: 0 1.5rem;
+}
+.main-col h3{
+    font-size: 1.5rem;
+    padding-left: 0.3rem;
+    background-color: #c1bcbc;;
+    margin: 0;
+}
+.main-col a{
+    font-size: 1.5rem;
+    background-color: white;
+    margin-top: 0.25rem;
+    padding: 0.3rem 0.3rem 0.2rem;
+    color: blue;
+}
+.personal, .sale{
+    margin-top: 1rem;
+}
+.events{
+    margin-top: 2.5rem;
+}
+.main-col>a{
+    font-weight: bold;
+    background-color:light-gray;
+    margin-top: 2rem;
+    color: blue;
+}
+#freelance{
+    font-weight: normal;
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+.no-background {
+    background-color: transparent !important;
+}
+
+
+.container a{
+    display: block;   
+}
